@@ -4,5 +4,14 @@
 // 2,4 -> 16
 
 
+int numA = 2;  // число
+int numB = 4;  //степень
+int result = numA;  
 
+
+for (int i = 1; i < numB; i++)
+{
+    result = result * numA;
+}
+System.Console.WriteLine($"Число {numA} в натуральной степени {numB} равно {result}");
 
