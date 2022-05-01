@@ -14,7 +14,7 @@ Console.WriteLine($"Сумма чисел от 1 до {A} = {sum}");
 //========================================
 //    2-й Вариант
 
-// int = SumToA(int A)
+// int SumToA(int A)
 // {
 //    int result = 0;
 //    for (int i = 0; i <= A; i++)
