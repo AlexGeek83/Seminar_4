@@ -10,12 +10,9 @@ int numA = Convert.ToInt32(enterNumA);
 Console.Write("Введите число В: ");
 string enterNumB = Console.ReadLine();
 int numB = Convert.ToInt32(enterNumB);
-
 // int numA = 2;  // число
 // int numB = 4;  //степень
 int result = numA;  
-
-
 for (int i = 1; i < numB; i++)
 {
     result = result * numA;
