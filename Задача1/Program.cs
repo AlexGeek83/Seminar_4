@@ -19,7 +19,7 @@ Console.WriteLine($"Сумма чисел от 1 до {A} = {sum}");
 //    int result = 0;
 //    for (int i = 0; i <= A; i++)
 // {
-//    result = result + i;
+//    result = result + i;  // или result += i
 // }
 // return result;
 // }
