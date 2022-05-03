@@ -27,10 +27,10 @@ int ElementCount = int.Parse(Console.ReadLine());
 int[] array = new int [ElementCount];
 for (int i = 0; i < array.Length; i++)
 {
-    System.Console.WriteLine($"Введите элемент под индексом {i}");
+    System.Console.WriteLine($"Введите элемент: ");
     array[i] = int.Parse(Console.ReadLine());
 }
-System.Console.WriteLine("Задан массив: ");
+System.Console.WriteLine("Вы задали массив из следующих элементов: ");
 void PrintArray(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
