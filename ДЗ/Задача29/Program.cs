@@ -9,7 +9,7 @@
 // выделяем память для массива
 //age = new int[5];
 
-int [] age = {1, 2, 5, 7, 19};
+/*int [] age = {1, 2, 5, 7, 19};
 
 void PrintArray(int[] array)
 {
@@ -17,11 +17,11 @@ void PrintArray(int[] array)
         System.Console.Write($"{array[i]} ");
 }
 PrintArray(age);
-
+*/
 
 //====================================================
 // Для ввода с клавиатуры
-/*
+
 System.Console.WriteLine("Введите количество эл-тов массива: ");
 int ElementCount = int.Parse(Console.ReadLine());
 int[] array = new int [ElementCount];
@@ -37,4 +37,6 @@ void PrintArray(int[] array)
        System.Console.Write($"{array[i]} ");
 }
 PrintArray(array);
-*/
+
+
+
