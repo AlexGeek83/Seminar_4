@@ -19,5 +19,22 @@ void PrintArray(int[] array)
 PrintArray(age);
 
 
-
-
+//====================================================
+// Для ввода с клавиатуры
+/*
+System.Console.WriteLine("Введите количество эл-тов массива: ");
+int ElementCount = int.Parse(Console.ReadLine());
+int[] array = new int [ElementCount];
+for (int i = 0; i < array.Length; i++)
+{
+    System.Console.WriteLine($"Введите элемент под индексом {i}");
+    array[i] = int.Parse(Console.ReadLine());
+}
+System.Console.WriteLine("Задан массив: ");
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+       System.Console.Write($"{array[i]} ");
+}
+PrintArray(array);
+*/
