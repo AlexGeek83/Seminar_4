@@ -21,7 +21,7 @@ string myName = "Алекс";
 string helloName = Hello(myName);
 
 // 3-й метод  - принимает значения и не возвращает т.е. void
-void PrintArgument(double arument);
+void PrintArgument(double argument);
 {
     System.Console.WriteLine(argument);
 }
